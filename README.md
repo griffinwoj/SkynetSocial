@@ -26,24 +26,3 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 
 
 
-1. GET /api/users - get all users
-2. GET /api/users/:userId - get a single user by ID
-3. POST /api/users - create a new user
-4. PUT /api/users/:userId - update a user by ID
-5. DELETE /api/users/:userId - delete a user by ID
-6. GET /api/thought - get all thought
-7. GET /api/thought/:thoughtId - get a single thought by ID
-8. POST /api/thought - create a new thought
-9. PUT /api/thought/:thoughtId - update a thought by ID
-10. DELETE /api/thought/:thoughtId - delete a thought by ID
-11. POST /api/thought/:thoughtId/reactions - add a reaction to a thought
-12. DELETE /api/thought/:thoughtId/reactions/:reactionId - remove a reaction from a thought
-13. POST /api/users/:userId/friends/:friendId - add a friend to a user's friend list
-14. DELETE /api/users/:userId/friends/:friendId - remove a friend from a user's friend list
-
-
-
-## Installation Process:
-1. Clone the Repository from GitHub (or) Download Zip Folder from Repository from GitHub.
-2. Open the cloned (or downloaded) repository in any source code editor.
-3. Open the integrated terminal of the document and complete the respective installation guides provided in "Built With" to ensure the cloned documentation will operate.
