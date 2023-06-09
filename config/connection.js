@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 
 mongoose.connect('mongodb://127.0.0.1/skynetsocial', {
     //if you are having issues with mongoose, try adding these options
-    //mongodb://localhost:27017/skynetsocial
+    //mongodb://127.0.0.1/skynetsocial
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
