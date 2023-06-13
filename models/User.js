@@ -36,7 +36,7 @@ const userSchema = new Schema(
   },
   {
     toJSON: {
-      virtuals: true, // enables virtual properties to be displayed when a user document is transformed into JSON format
+    virtual: true, // enables virtual properties to be displayed when a user document is transformed into JSON format
     },
     id: false, // disables the default '_id' field in the User model to be returned when calling toJSON() method
 }
