@@ -1,7 +1,7 @@
 // Importing the mongoose library
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://127.0.0.1/skynetsocial', {
+mongoose.connect('mongodb://127.0.0.1:27017/skynetsocial', {
     //if you are having issues with mongoose, try adding these options
     //mongodb://127.0.0.1/skynetsocial
   useNewUrlParser: true,
